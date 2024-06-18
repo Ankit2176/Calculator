@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(83deg, #cc8a66,#798abe,#54cfb6);                          background: linear-gradient(83deg, #cc8a66,#798abe,#54cfb6);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+
+#calculator {
+  max-width: 500px;
+  background-color: rgba(0, 0, 0, 0.128);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#key {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.337);
+}
+
+#display {
+  width: 99%;
+  height: 10vh;
+  border: none;
+  color: rgba(0, 0, 0, 0.644);
+  background-color: rgba(0, 0, 0, 0.292);
+  font-size: 3rem;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.205);
+}
+
+button:active {
+  background-color: rgba(0, 0, 0, 0.071);
+}
+
+.oprator {
+  background-color: rgb(253, 181, 0);
+}
+.oprator:hover {
+  background-color: rgba(255, 183, 0, 0.565);
+}
+.oprator:active {
+  background-color: rgba(255, 253, 246, 0.154);
+}
+
+.clear {
+  background-color: rgba(153, 141, 8, 0.205);
+  width: 100%;
+  grid-column: -5/-1;
+}
+
+.clear:hover {
+  background-color: rgba(151, 142, 37, 0.165);
+}
+
+.clear:active {
+  background-color: rgb(255, 255, 255);
+}
+
+#demo{
+
+background-color: #cc8a66;
+height:200pxvw;
+width:200px;
+font-size: 3rem;
+}
